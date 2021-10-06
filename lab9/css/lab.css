@@ -1,0 +1,36 @@
+div#content {
+    padding: 50px;
+    background-color: teal;
+    border: solid 5px darkorange;
+    height: 80vh;
+    margin: 10px 10px 0px 10px;
+}
+h1#header:hover{
+  font-size: 250%;
+}
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+img{
+      width: 350px;
+      float: right;
+      height: auto;
+      transition: all 0.5s;
+  }
+  img:hover{
+    width: 450px;
+  }
+
+  body {
+      font-family: Helvetica, Verdana, Arial, "san serif";
+      background-color: #ffbb2fed;
+      padding: 25px;
+      font-size: 120%;
+  }
+  a {
+      color: purple;
+  }
+  a:hover {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+  }
