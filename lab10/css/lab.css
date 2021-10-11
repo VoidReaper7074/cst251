@@ -1,0 +1,80 @@
+body {
+  background-color: #EEEEEE;
+}
+
+#header {
+  font-family: 'Chakra Petch', sans-serif;
+}
+#header h1 {
+  border: solid 2px #76A5AF;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: #CE6400;
+  font-size: 250%;
+  letter-spacing: 0.05em;
+  text-align: center;
+  background-color: rgba(118, 165, 175, 0.3);
+}
+.homepage {
+  margin-bottom: 15px;
+  margin-left: 40px;
+  width: 155px;
+  padding: 10px;
+  font-size: 105%;
+  border: solid 2px #DFB269;
+  border-radius: 8px;
+  background-color: rgba(223, 178, 105, 0.2)
+}
+
+.content {
+  overflow: hidden;
+  border: solid 2px #76A5AF;
+  border-radius: 8px;
+  background-color: rgba(118, 165, 175, 0.3);
+  padding: 5px;
+  font-size: 85%;
+}
+
+.content h2, p {
+  font-family: 'Antic Slab', serif;
+  margin-left: 20px;
+  max-width: 55vw;
+  padding: 5px;
+}
+.content h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #CE6400;
+  text-decoration: underline;
+  padding-top: 20px;
+  margin-bottom: -15px;
+}
+.content p {
+  font-size: 120%;
+  font-weight: bolder;
+  padding-left: 15px;
+  color: #155260;
+}
+#challenge {
+  padding-top: 20px;
+}
+.content .image {
+  float: right;
+  height: 50vh;
+  width: auto;
+}
+.content .image img {
+  max-height: 90%;
+  width: auto;
+  border-radius: 10px;
+  margin: 15px;
+  margin-top: 30px;
+  filter: opacity(85%);
+}
+a:link {
+  color: #155260;
+}
+a:visited {
+  color: #155260;
