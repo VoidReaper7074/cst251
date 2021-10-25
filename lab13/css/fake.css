@@ -1,126 +1,130 @@
-iframe#fake {
-    width: 800px;
-    height: 500px;
-    resize: both;
-    overflow: hidden;
-
-}
-
 body{
-   background-image: url("../img/back.jpg");
-   background-size: cover;
-
-
+  background-color: #f3ece2;
+margin: 0px 0px 0px 0px;
+  position: relative;
+  border: solid darkgreen 10px;
 }
-#helpme {
-color: #ffffff;
-
+div#navbar{
+  top:0px;
+  left: 0px;
 }
-#container {
-position: relative;
-width: 100vw;
-height: 100vh;
-z-index: -100;
-line-height: 95%;
-margin:20px;
-
-
-
-
-
+div#icon img{
+  width: 50px;
+  height: auto;
+  top: 0px;
+  left: 20px;
+  position: relative;
 }
-#right {
-text-align: right;
+div#navigation p{
+  text-align: center;
+  top:25px;
+  word-spacing: 20px;
+  position: absolute;
+  width: 100vw;
+  color: #047404;
+  font-size: 20;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+div#button a{
+  text-align: center;
+  right: 40px;
+  top: 35px;
+  position: fixed;
+  clear: right;
+  border: solid;
+  padding: 8px 25px 8px 25px;
+  font-size: 22;
+  color: #047404;
+  font-style: italic;
+  font-family: auto;
+  text-decoration: none;
+}
+div#content{
 position: absolute;
-bottom: -10;
-right: 0;
-color: #e4003f;
-text-align: right;
-font-family: 'Suez One', serif;
-border-bottom:5px dashed #e4003f;
-line-height: 25%;
-text-shadow: 2px 2px #000;
-word-spacing: 10px;
-
-
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
 }
-#des2 {
-font-size: 50px;
-font-weight: bolder;
-text-shadow: 2px 2px #000;
-text-decoration: underline  #952c3a;
-
+@font-face {
+  font-family: kris;
+  src: url(../Fonts/Kristi.ttf);
 }
-#des3 {
-font-size: 22px;
-font-weight: bold;
-text-shadow: 2px 2px #000;
-letter-spacing: 1px;
-
+div#name {
+    font-size: 100px;
+    font-family: kris;
+    position: fixed;
+    width: max-content;
+    bottom: 190px;
+    left: -260px;
+    color: #c11129;
 }
-#title-box2 {
-color: #ff3452;
-
+div#name p{
+  display: inline;
 }
-#des4 {
-  margin-left: 17%;
-  text-decoration: none;
-  word-spacing:5px;
-  line-height:50px
+@font-face {
+  font-family: cod;
+  src:url(../Fonts/codgobrr.ttf);
 }
-#title-box {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-z-index: -10;
-font-family: 'Josefin Slab', serif;
-color: #e8dfc0;
-font-size: 44px;
-word-break: break-word;
-line-height: 65%;
-text-decoration: none;
-
-
-
-
-
+div#subject{
+font-family: cod;
+font-size: 55px;
+position: fixed;
+bottom: 67px;
+left: -268px;
+color: #004000;
+opacity: .8;
 }
-#title-box .title {
-font-size: 150px;
-letter-spacing: -10px;
-font-family: 'Suez One', serif;
-line-height: 65%;
-word-spacing: 20px;
-text-align: center;
+div#arrow {
+    font-size: 440px;
+    position: fixed;
+    bottom: -460px;
+    left: -14px;
+    color: peru;
 }
-
-
-#title-box .date {
-  text-align: left;
-  font-size: 30px;
-  font-family: 'Josefin Slab', serif;
-
+div#date {
+    font-size: 60px;
+    font-family: cod;
+    position: fixed;
+    bottom: 152px;
+    left: 270px;
+    color: #004000;
+    opacity: 0.8;
 }
-#caption-box {
-text-align: right;
-z-index: 10;
-font-size: 30px;
-word-spacing: 20px;
-  text-decoration: none;
-
-
-
+@font-face {
+  font-family: unbproblack;
+  src: url(../Fonts/unb_pro_black.otf);
 }
-a:link {
-  color: #ffffff;
-  text-decoration: none;
-
+div#tips {
+    font-size: 440px;
+    font-family: unbproblack;
+    position: fixed;
+    z-index: -1;
 }
-
-a:visited {
-  color: #ffffff;
-  text-decoration: none;
-
-
+span.tee {
+    position: fixed;
+    bottom: -290px;
+    left: -310px;
+    color: #c11129;
+}
+span.pea {
+    position: fixed;
+    bottom: -290px;
+    left: -10px;
+    color: peru;
+}
+span.eye {
+    bottom: -350px;
+    left: -100px;
+    position: fixed;
+    color: #004000;
+    opacity: .7;
+}
+span.ess {
+    position: fixed;
+    bottom: -350px;
+    left: 170px;
+    color: green;
+    opacity: .7;
 }
